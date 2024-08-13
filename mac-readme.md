@@ -2,7 +2,7 @@
 
 mkdir -p models
 curl -L -o models/GFPGANv1.4.pth https://huggingface.co/hacksider/deep-live-cam/resolve/main/GFPGANv1.4.pth
-curl -L -o models/inswapper_128_fp16.onnx https://huggingface.co/hacksider/deep-live-cam/resolve/main/inswapper_128.onnx
+curl -L -o models/inswapper_128.onnx https://huggingface.co/hacksider/deep-live-cam/resolve/main/inswapper_128.onnx
 
 (choppy on m1 https://github.com/hacksider/Deep-Live-Cam/issues/120)
 
